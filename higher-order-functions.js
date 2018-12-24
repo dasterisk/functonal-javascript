@@ -1,0 +1,9 @@
+function repeat(operation, num){
+	for(i = 0; i < num; i++){
+		operation.call();
+	}
+}
+
+function operation(){}
+
+module.exports = repeat;
